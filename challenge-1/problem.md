@@ -1,4 +1,4 @@
-# Tildens problem
+# Secure Seed?
 
 - Namespace: picoctf/18739f24
 - ID: tilden-challenge-1
@@ -10,23 +10,23 @@
 
 ## Description
 
-Tilden needs to write this
+My data is encrypted securely... from the roots to the seed.
 
 ## Details
 
-You can connect to the server with `nc {{server}} {{port}}`.
-
-Oh, and here is the code {{url_for("challenge.py", "challenge.py")}}
+Connect to {{server}}:{{port}} and decrypt the RSA encrypted ciphertext for the flag.. {{url_for("challenge.py", "source")}}
 
 ## Hints
 
-- Tilden needs to create a hint
-- No really
-
+- Have you heard of random function seeding?
+- Did you know you can specify random functions in RSA crypto primitives?
 
 ## Solution Overview
+* Control the seed
+* Simulate the encryption/decryption key generation
+* Check it matches
 
-Tilden needs to write
+Check solve.py.
 
 ## Attributes
 - author: Tilden Jackson
