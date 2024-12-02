@@ -10,7 +10,7 @@
 
 ## Description
 
-Tilden needs to write this
+Connect to server and decrypt the RSA encrypted ciphertext for the flag.. 
 
 ## Details
 
@@ -20,13 +20,14 @@ Oh, and here is the code {{url_for("challenge.py", "challenge.py")}}
 
 ## Hints
 
-- Tilden needs to create a hint
-- No really
+* Have you heard of random function seeding?
+* Did you know you can specify random functions in RSA crypto primitives?
 
 
 ## Solution Overview
 
-Tilden needs to write
+Control Seed
+Control Primes
 
 ## Attributes
 - author: Tilden Jackson
